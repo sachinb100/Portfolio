@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+
+    background-color: lightskyblue !important;
+    color: white;
+}
+.container{
+    justify-content: space-around;
+}
+.hero-text{
+    text-align:justify;
+    position:absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:white;
+    font-size: 4 rem;
+}
+
+
+.imageAboutPage{
+    width:100%;
+}
+
+
+
+#footer{
+    background-color:blue;
+    text-align: center;
+}
+
+.social-icons{
+    font-size: 36px;
+    cursor: pointer;
+ 
+}
+.bi{
+    color: black;
+}
+
+.bi-envelope:hover,.bi-github:hover,.bi-linkedin:hover .navitem:hover{
+    color: #008000;
+}
+
+
+.fab{
+    color: #000000;
+}
+
+/* spacing on all sections*/
+#about,#projects,#skills{
+    padding-top: 1 rem;
+    margin-top: 0.5 rem;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;   
+}
+
+.first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.first > div{
+   width:30%;
+}
+.leftSection{
+    
+    font-size: 3 rem;
+   
+       
+}
+
+.rightSection img{
+    width: 80%;
+    margin:50px 0;
+    border-radius: 50%;
+       
+}
+
+#element{
+    color: purple;
+    font-size: 4 rem;
+}
